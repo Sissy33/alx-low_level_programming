@@ -1,7 +1,7 @@
 #include "main.h"
 
-/** 
- * main - Entry point
+/**
+ * main - Entery point
  * @argc: The number of command line arguments
  * @argv: An array containing the command line arguments
  *
@@ -9,9 +9,8 @@
  */
 int main(int argc, char *argv[])
 {
-	(void)argc;
-	while (*argv[0])
-		_putchar(*argv[0]++);
+	(void)argv;
+	_purchar((argc - 1) + '0');
 	_putchar('\n');
 
 	return (0);
