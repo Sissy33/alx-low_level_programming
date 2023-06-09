@@ -9,8 +9,10 @@
  */
 int main(int argc, char *argv[])
 {
-	(void)argv;
-	_purchar((argc - 1) + '0');
+	(void)argv; /* Unused parameter */
+
+	/* Print the number of arguments */
+	_putchar((argc - 1) + '0');
 	_putchar('\n');
 
 	return (0);
